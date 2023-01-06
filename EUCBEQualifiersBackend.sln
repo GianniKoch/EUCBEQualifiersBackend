@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreGathering", "ScoreGathering\ScoreGathering.csproj", "{C8D06C10-0A30-4642-873D-F0E52A4BCDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreSaberApi", "ScoreSaberApi\ScoreSaberApi.csproj", "{4E53AAA2-B606-4C2D-A69A-A58A63B11BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendApi", "BackendApi\BackendApi.csproj", "{B19B3AC0-72F4-4CBF-919C-E5BECFDA806E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8D06C10-0A30-4642-873D-F0E52A4BCDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D06C10-0A30-4642-873D-F0E52A4BCDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D06C10-0A30-4642-873D-F0E52A4BCDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D06C10-0A30-4642-873D-F0E52A4BCDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E53AAA2-B606-4C2D-A69A-A58A63B11BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E53AAA2-B606-4C2D-A69A-A58A63B11BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E53AAA2-B606-4C2D-A69A-A58A63B11BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E53AAA2-B606-4C2D-A69A-A58A63B11BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19B3AC0-72F4-4CBF-919C-E5BECFDA806E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19B3AC0-72F4-4CBF-919C-E5BECFDA806E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19B3AC0-72F4-4CBF-919C-E5BECFDA806E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19B3AC0-72F4-4CBF-919C-E5BECFDA806E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
