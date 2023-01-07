@@ -17,7 +17,7 @@ public class ScoreGatheringService : IScoreGatheringService
 
     private readonly string[] _leaderboardIds =
     {
-        "537242", "463089", "415283", "372250", "380003", "368793", "421816", "396311"
+        "537242", "372250", "463089", "396311", "415283", "380003", "368793", "421816"
     };
 
     public ScoreGatheringService(IScoreSaberApiService scoreSaberApiService)
