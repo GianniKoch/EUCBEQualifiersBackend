@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OutputCaching;
 using ScoreGathering.Interfaces;
 
 namespace BackendApi.Controllers;
@@ -15,6 +16,7 @@ public class QualifierController : ControllerBase
     }
 
     [HttpGet]
+    [OutputCache]
     public async Task<IActionResult> Standings()
     {
         return Ok(await _scoreGatheringService.GetScores());

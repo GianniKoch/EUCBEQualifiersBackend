@@ -8,6 +8,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddOutputCache(settings =>
+{
+    settings.DefaultExpirationTimeSpan = TimeSpan.FromMinutes(1);
+});
 
 builder.Services.AddScoreGathering(builder.Configuration["ScoreGathering:AppName"]!, 
     typeof(Program).Assembly.GetName().Version!, 
@@ -33,6 +37,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseOutputCache();
 app.MapControllers();
 
 app.Run();
